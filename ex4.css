@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+div.form-container{
+    width: fit-content;
+    margin: auto;
+}
+
+div.feat-add{
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+div.feat-find-delete, div.list{
+    padding: 15px;
+}
+
+div.list>ul{
+    list-style: none;
+}
+div.list>ul>li{
+    display: flex;
+    justify-content: space-between;
+}
+
+form.form-find-delete{
+    display: flex;
+    gap: 5px
+}
+body{
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+input{
+    background-color: #ffffff;
+    color: #c1c1c1;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 2px;
+}
+button{
+    background-color: #3057be;
+    color: #dde4f3;
+    border-radius: 3px;
+    border: 1px solid #3057be;
+    padding: 2px;
+}
+
+li{
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    color: black;
+    padding: 7px;
+    margin: 10px 0px;
+}
